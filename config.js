@@ -18,18 +18,18 @@
 window.WEDDING_CONFIG = {
   // 1. THÔNG TIN SEO & TIÊU ĐỀ TAB TRÌNH DUYỆT
   meta: {
-    title: 'Minh Hoàng & Trần Mến', // Tiêu đề hiển thị trên tab trình duyệt
+    title: 'Trần Mến & Minh Hoàng', // Tiêu đề hiển thị trên tab trình duyệt
     description: 'Trân trọng kính mời bạn đến chung vui cùng chúng tôi trong ngày trọng đại!', // Mô tả ngắn khi chia sẻ liên kết
     lang: 'vi' // Mã ngôn ngữ HTML ('vi')
   },
 
   // 2. THÔNG TIN CÔ DÂU & CHÚ RỂ
   couple: {
-    brideShort: 'Minh Hoàng',       // Tên cô dâu hiển thị ngắn (trên tiêu đề hero & thiệp mini)
-    groomShort: 'Trần Mến',     // Tên chú rể hiển thị ngắn
-    brideFull: 'Minh Hoàng',        // Họ tên đầy đủ cô dâu (có thể đổi thành VD: 'Trần Thị Mến')
-    groomFull: 'Trần Mến',      // Họ tên đầy đủ chú rể (có thể đổi thành VD: 'Bùi Minh Hoàng')
-    monogram: 'HM',               // 2 chữ cái viết tắt in nổi trên con dấu sáp (Wax Seal)
+    brideShort: 'Trần Mến',       // Tên cô dâu hiển thị ngắn (trên tiêu đề hero & thiệp mini)
+    groomShort: 'Minh Hoàng',     // Tên chú rể hiển thị ngắn
+    brideFull: 'Trần Mến',        // Họ tên đầy đủ cô dâu (có thể đổi thành VD: 'Trần Thị Mến')
+    groomFull: 'Minh Hoàng',      // Họ tên đầy đủ chú rể (có thể đổi thành VD: 'Bùi Minh Hoàng')
+    monogram: 'MH',               // 2 chữ cái viết tắt in nổi trên con dấu sáp (Wax Seal)
     displayOrder: 'bride-first',  // Thứ tự hiển thị: 'bride-first' (Cô dâu trước) hoặc 'groom-first' (Chú rể trước)
     greetingPrefix: 'Trân trọng kính mời:', // Lời chào trước tên khách mời (kết hợp tham số ?kinhmoi=...)
     defaultGuestName: 'Quý khách', // Tên hiển thị mặc định khi URL không có ?kinhmoi=...
@@ -43,16 +43,16 @@ window.WEDDING_CONFIG = {
     prelude: 'Hai mái nhà, một gia đình',    // Dòng dẫn phía trên hai cột nhà gái / nhà trai
     welcomeLine: 'Chúng tôi rất hân hạnh được đón tiếp bạn trong ngày vui của gia đình.', // Lời chào đón bên dưới hai gia đình
     brideSide: {
-      title: 'Nhà trai',                     // Nhãn cột nhà trai
-      father: 'Ông: Bùi Ngọc Ánh',           // Họ tên bố chú rể
-      mother: 'Bà: Đào Thị Sen',             // Họ tên mẹ chú rể
-      address: 'Khu 5 , Tứ Trưng, Vĩnh Tường, Vĩnh Phúc' // Địa chỉ tư gia nhà trai
-    },
-    groomSide: {
       title: 'Nhà gái',                      // Nhãn cột nhà gái
       father: 'Ông: Trần Văn Hải',           // Họ tên bố cô dâu
       mother: 'Bà: Bùi Thị Lên',             // Họ tên mẹ cô dâu
       address: '02 ngách 12 ngõ 563 Thọ Sơn, Đại Nghĩa, Mỹ Đức, Hà Nội' // Địa chỉ tư gia nhà gái
+    },
+    groomSide: {
+      title: 'Nhà trai',                     // Nhãn cột nhà trai
+      father: 'Ông: Bùi Ngọc Ánh',           // Họ tên bố chú rể
+      mother: 'Bà: Đào Thị Sen',             // Họ tên mẹ chú rể
+      address: 'Khu 5 , Tứ Trưng, Vĩnh Tường, Vĩnh Phúc' // Địa chỉ tư gia nhà trai
     }
   },
 
@@ -65,9 +65,9 @@ window.WEDDING_CONFIG = {
     lunarDate: '( Tức ngày 19 tháng 10 năm Bính Ngọ )', // Ngày âm lịch tương ứng
     receptionTime: 'Đón khách: 16:00', // Giờ đón khách
     venueName: '',                // Tên nhà hàng / địa điểm (để '' nếu chỉ hiện địa chỉ như bản mẫu)
-    address: 'Gần cổng chợ Rưng, Khu 5 , Tứ Trưng, Vĩnh Tường, Vĩnh Phúc', // Địa chỉ tổ chức tiệc chính
+    address: '02 ngách 12 ngõ 563 Thọ Sơn, Đại Nghĩa, Mỹ Đức, Hà Nội', // Địa chỉ tổ chức tiệc chính
     mapLabel: 'Chỉ đường',        // Chữ hiển thị trên nút mở bản đồ
-    mapUrl: 'https://maps.app.goo.gl/4ki7YdR6wDFitKFh7' // Đường dẫn Google Maps
+    mapUrl: 'https://goo.gl/maps/P6Grpw9eExmJ76UW6' // Đường dẫn Google Maps
   },
 
   // 5. DANH SÁCH CÁC NGHI LỄ (CÓ THỂ THÊM HOẶC BỚT PHẦN TỬ TRONG MẢNG)
@@ -99,13 +99,13 @@ window.WEDDING_CONFIG = {
     highlightDay: 28,             // Ngày trọng đại được đánh dấu hình trái tim
     weekStartsOn: 'CN',           // Ngày bắt đầu tuần: 'CN' (Chủ Nhật) hoặc 'T2' (Thứ Hai)
     googleEvent: {
-      title: 'Đám cưới Minh Hoàng & Trần Mến', // Tiêu đề sự kiện khi lưu vào Google Calendar
+      title: 'Đám cưới Trần Mến & Minh Hoàng', // Tiêu đề sự kiện khi lưu vào Google Calendar
       startUtc: '20261128T010000Z', // Giờ bắt đầu theo chuẩn UTC (08:00 giờ VN = 01:00Z)
       endUtc: '20261128T040000Z',   // Giờ kết thúc theo chuẩn UTC (11:00 giờ VN = 04:00Z)
-      details: 'Gần cổng chợ Rưng, Khu 5 , Tứ Trưng, Vĩnh Tường, Vĩnh Phúc',                  // Mô tả thêm cho sự kiện lịch (để '' nếu không cần)
+      details: '',                  // Mô tả thêm cho sự kiện lịch (để '' nếu không cần)
       location: '02 ngách 12 ngõ 563 Thọ Sơn, Đại Nghĩa, Mỹ Đức, Hà Nội' // Địa điểm gắn trên lịch
     },
-    icsFileName: 'Đám cưới Minh Hoàng & Trần Mến.ics' // Tên file .ics tải về cho Apple Calendar / Outlook
+    icsFileName: 'Đám cưới Trần Mến & Minh Hoàng.ics' // Tên file .ics tải về cho Apple Calendar / Outlook
   },
 
   // 8. LỊCH TRÌNH BUỔI LỄ (TÙY CHỌN — ĐẶT enabled: true ĐỂ HIỂN THỊ TRONG DẢI NHUNG ĐỎ)
@@ -189,24 +189,10 @@ window.WEDDING_CONFIG = {
     sampleWishes: [               // Các lời chúc mẫu hiển thị sẵn khi chạy ở chế độ Demo
       {
         id: 'sample-1',
-        name: 'Bạn Hoàng',
+        name: 'Okela',
         relation: 'Bạn thân chú rể',
         message: 'Chúc 2 bạn mãi yêu nhau, đầu bạc răng long!',
         createdAt: '2026-11-04T13:44:00+07:00'
-      },
-      {
-        id: 'sample-2',
-        name: 'Hoài Nam',
-        relation: 'Đồng nghiệp',
-        message: 'Chúc hai bạn luôn nắm tay nhau qua mọi chặng đường!',
-        createdAt: '2026-11-04T13:43:00+07:00'
-      },
-      {
-        id: 'sample-3',
-        name: 'Chị Huyền',
-        relation: 'Gia đình nhà gái',
-        message: 'Chúc hai em trăm năm hạnh phúc, vợ chồng đồng lòng.',
-        createdAt: '2026-11-04T13:42:00+07:00'
       }
     ]
   },
