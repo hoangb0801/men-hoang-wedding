@@ -1,0 +1,756 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Trần Mến &amp; Minh Hoàng</title>
+  <meta name="description" content="Trân trọng kính mời bạn đến chung vui cùng chúng tôi trong ngày trọng đại!">
+  <link rel="icon" href="data:,">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@300;400;500;600;700&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Great+Vibes&display=swap">
+  <link rel="stylesheet" href="./css/styles.css">
+  <script src="./config.js"></script>
+  <script defer src="./js/config-loader.js"></script>
+  <script defer src="./js/sheets-client.js"></script>
+  <script defer src="./js/app.js"></script>
+</head>
+<body class="min-h-full">
+  <main class="page-shell">
+    <div class="page-container">
+      <div class="theme-invitation" data-template-slug="do-burgundy" data-template-tier="diamond">
+        <div
+          class="invitation"
+          data-template="do-burgundy"
+          data-gate-opening-root="true"
+          style="--gate-opening-ribbon: 2800ms; --gate-opening-outerLeft: 2900ms; --gate-opening-outerRight: 3400ms; --gate-opening-innerLeft: 4350ms; --gate-opening-innerRight: 4800ms; --gate-opening-fold: 850ms; --gate-opening-zoom: 5700ms; --gate-opening-zoomDuration: 1300ms; --gate-opening-duration: 7000ms;"
+        >
+          <!-- Section 1: 3D Gate-Fold Opening Cover -->
+          <div
+            class="opening-cover"
+            data-section="gate-opening"
+            data-opening-motion="fade"
+            data-opening-phase="closed"
+            style="--invitation-opening-duration: 7000ms;"
+          >
+            <button
+              type="button"
+              id="invite-open-btn"
+              class="gate-wrapper"
+              data-untying="false"
+              data-opening-surface="true"
+              aria-label="Chạm để mở thiệp"
+              aria-describedby="v4g-greeting"
+            >
+              <span id="v4g-greeting" class="gate-greeting">
+                <span class="gate-greeting-label">Trân trọng kính mời: Quý khách</span>
+              </span>
+
+              <span class="gate-stage" aria-hidden="true">
+                <svg class="gate-definitions" viewBox="0 0 0 0" aria-hidden="true">
+                  <defs>
+                    <filter id="v4g-paper-feather" x="-10%" y="-10%" width="120%" height="120%">
+                      <feGaussianBlur stdDeviation="12"></feGaussianBlur>
+                    </filter>
+                    <mask id="v4g-paper-mask" maskUnits="userSpaceOnUse" x="0" y="0" width="984" height="1598">
+                      <rect width="984" height="1598" fill="white"></rect>
+                      <g fill="black" stroke="black" stroke-width="180" stroke-linejoin="round" filter="url(#v4g-paper-feather)">
+                        <path d="M30 702L177 707L155 770L155 806L441 787L445 837L30 867Z"></path>
+                        <path d="M813 706L957 701L957 863L819 865L774 820L815 786Z"></path>
+                        <path d="M448 800C386 819 294 910 76 1147L171 1145L197 1287C296 1180 398 1015 461 841Z"></path>
+                        <path d="M536 811C568 816 667 850 721 914L925 1190L818 1186L796 1309C665 1147 576 1036 538 857Z"></path>
+                        <path d="M446 765C386 719 340 616 216 599C200 599 195 624 185 654L153 769C142 805 265 856 444 800Z"></path>
+                        <path d="M544 759C625 702 699 650 805 647C819 681 824 740 834 801C851 851 694 888 546 807Z"></path>
+                        <path d="M442 736C460 730 472 742 489 730C502 723 519 743 542 740L552 793L541 837C518 831 508 855 488 841L448 836Z"></path>
+                      </g>
+                    </mask>
+                    <g id="v4g-paper">
+                      <image href="./assets/decor/opening-paper.avif" width="984" height="1598"></image>
+                      <image href="./assets/decor/opening-wrap.avif" width="984" height="1598" mask="url(#v4g-paper-mask)"></image>
+                    </g>
+                    <clipPath id="v4g-inner-left">
+                      <path d="M35 90H492V1516H30Z"></path>
+                    </clipPath>
+                    <clipPath id="v4g-inner-right">
+                      <path d="M491 89L950 87L957 1517H491Z"></path>
+                    </clipPath>
+                    <clipPath id="v4g-outer-left">
+                      <path d="M35 90L483 701V896L80 1490L30 1516Z"></path>
+                    </clipPath>
+                    <clipPath id="v4g-outer-right">
+                      <path d="M950 87L908 116L498 701V900L910 1490L957 1517Z"></path>
+                    </clipPath>
+                    <mask id="v4g-exposed-paper" maskUnits="userSpaceOnUse" x="0" y="0" width="984" height="1598">
+                      <rect width="984" height="1598" fill="white"></rect>
+                      <path d="M35 90L483 701V896L80 1490L30 1516Z M950 87L908 116L498 701V900L910 1490L957 1517Z" fill="black"></path>
+                    </mask>
+                  </defs>
+                </svg>
+
+                <svg class="gate-panel gate-inner-left" viewBox="30 86 925 1432">
+                  <g clip-path="url(#v4g-inner-left)">
+                    <image href="./assets/decor/opening-inner-paper.avif" width="984" height="1598"></image>
+                    <use class="gate-closed-lighting" href="#v4g-paper" mask="url(#v4g-exposed-paper)"></use>
+                  </g>
+                </svg>
+
+                <svg class="gate-panel gate-inner-right" viewBox="30 86 925 1432">
+                  <g clip-path="url(#v4g-inner-right)">
+                    <image href="./assets/decor/opening-inner-paper.avif" width="984" height="1598"></image>
+                    <use class="gate-closed-lighting" href="#v4g-paper" mask="url(#v4g-exposed-paper)"></use>
+                  </g>
+                </svg>
+
+                <svg class="gate-panel gate-outer-left" viewBox="30 86 925 1432">
+                  <use href="#v4g-paper" clip-path="url(#v4g-outer-left)"></use>
+                </svg>
+
+                <svg class="gate-panel gate-outer-right" viewBox="30 86 925 1432">
+                  <use href="#v4g-paper" clip-path="url(#v4g-outer-right)"></use>
+                </svg>
+
+                <svg class="gate-still" viewBox="30 86 925 1432">
+                  <image href="./assets/decor/opening-wrap.avif" width="984" height="1598"></image>
+                </svg>
+
+                <span class="gate-ribbon-layer" data-ribbon-renderer="fallback">
+                  <svg class="gate-ribbon-fallback" viewBox="30 86 925 1432">
+                    <defs>
+                      <clipPath id="v4g-ribbon">
+                        <path d="M30 702L177 707L155 770L155 806L441 787L445 837L30 867Z"></path>
+                        <path d="M813 706L957 701L957 863L819 865L774 820L815 786Z"></path>
+                        <path d="M448 800C386 819 294 910 76 1147L171 1145L197 1287C296 1180 398 1015 461 841Z"></path>
+                        <path d="M536 811C568 816 667 850 721 914L925 1190L818 1186L796 1309C665 1147 576 1036 538 857Z"></path>
+                        <path d="M446 765C386 719 340 616 216 599C200 599 195 624 185 654L153 769C142 805 265 856 444 800Z"></path>
+                        <path d="M544 759C625 702 699 650 805 647C819 681 824 740 834 801C851 851 694 888 546 807Z"></path>
+                        <path d="M442 736C460 730 472 742 489 730C502 723 519 743 542 740L552 793L541 837C518 831 508 855 488 841L448 836Z"></path>
+                      </clipPath>
+                    </defs>
+                    <image href="./assets/decor/opening-wrap.avif" width="984" height="1598" clip-path="url(#v4g-ribbon)"></image>
+                  </svg>
+                </span>
+              </span>
+
+              <span class="gate-hint">Chạm để mở thiệp</span>
+
+              <span class="opening-burst-layer" aria-hidden="true" style="left: 50%; top: 62%;">
+                <span class="opening-pulse-ring"></span>
+              </span>
+            </button>
+          </div>
+
+          <!-- Main Invitation Content -->
+          <div
+            class="opening-content wrapped-content"
+            data-opening-motion="fade"
+            data-opening-phase="closed"
+            aria-hidden="true"
+            inert
+            style="--invitation-opening-duration: 7000ms;"
+          >
+            <!-- Section 2: Hero Cover & 3D Envelope Scene -->
+            <section class="cover" data-gate-opening-cover="true" tabindex="-1" data-section="cover">
+              <div class="cover-copy">
+                <p class="save-date">Save the date</p>
+                <h1 class="cover-names"><span data-v4-name>Trần&nbsp;Mến</span><i>&amp;</i><span data-v4-name>Minh&nbsp;Hoàng</span></h1>
+                <span class="fleuron fleuron-lines" aria-hidden="true">
+                  <svg viewBox="0 0 40 20" fill="currentColor">
+                    <ellipse cx="20" cy="5.6" rx="2.3" ry="4.4" transform="rotate(0 20 10)"></ellipse>
+                    <ellipse cx="20" cy="5.6" rx="2.3" ry="4.4" transform="rotate(90 20 10)"></ellipse>
+                    <ellipse cx="20" cy="5.6" rx="2.3" ry="4.4" transform="rotate(180 20 10)"></ellipse>
+                    <ellipse cx="20" cy="5.6" rx="2.3" ry="4.4" transform="rotate(270 20 10)"></ellipse>
+                    <circle cx="20" cy="10" r="1.6" fill="var(--paper, #f3ece2)"></circle>
+                    <ellipse cx="9.5" cy="10" rx="4.2" ry="1.5" transform="rotate(-14 9.5 10)"></ellipse>
+                    <ellipse cx="30.5" cy="10" rx="4.2" ry="1.5" transform="rotate(14 30.5 10)"></ellipse>
+                    <circle cx="3" cy="10" r="1"></circle>
+                    <circle cx="37" cy="10" r="1"></circle>
+                  </svg>
+                </span>
+                <p class="cover-greeting">Trân trọng kính mời</p>
+              </div>
+
+              <div class="cover-envelope">
+                <div class="envelope-scene" data-moving="false" data-envelope-scene="true">
+                  <div class="env-florals-back" aria-hidden="true">
+                    <img alt="" loading="eager" decoding="async" src="./assets/decor/envelope-florals-back.avif">
+                  </div>
+                  <div class="env-berries-left" aria-hidden="true">
+                    <img alt="" loading="eager" decoding="async" src="./assets/decor/berry-sprig.avif">
+                  </div>
+                  <div class="env-back" aria-hidden="true"></div>
+                  <figure class="env-polaroid">
+                    <div class="env-paper" aria-hidden="true">
+                      <img alt="" loading="eager" decoding="async" src="./assets/decor/journey-paper.avif">
+                    </div>
+                    <div class="photo" data-v4-empty="0">
+                      <img alt="Trần Mến &amp; Minh Hoàng" fetchpriority="high" loading="eager" decoding="async" src="./assets/photos/cover.png" data-v4-cover-photo>
+                    </div>
+                  </figure>
+                  <div class="env-card">
+                    <div class="env-paper" aria-hidden="true">
+                      <img alt="" loading="eager" decoding="async" src="./assets/decor/invitation-paper.avif">
+                    </div>
+                    <svg class="env-art" viewBox="0 0 300 410" aria-hidden="true">
+                      <text x="150" y="58" class="art-caps" font-size="11" letter-spacing="2.4">THE WEDDING OF</text>
+                      <g transform="translate(150 80)">
+                        <path d="M-45 0H-18M18 0H45" stroke="currentColor" stroke-width="0.6" opacity="0.45"></path>
+                        <g transform="translate(-14 -7) scale(0.7)" fill="currentColor">
+                          <ellipse cx="20" cy="5.6" rx="2.3" ry="4.4" transform="rotate(0 20 10)"></ellipse>
+                          <ellipse cx="20" cy="5.6" rx="2.3" ry="4.4" transform="rotate(90 20 10)"></ellipse>
+                          <ellipse cx="20" cy="5.6" rx="2.3" ry="4.4" transform="rotate(180 20 10)"></ellipse>
+                          <ellipse cx="20" cy="5.6" rx="2.3" ry="4.4" transform="rotate(270 20 10)"></ellipse>
+                          <circle cx="20" cy="10" r="1.6" fill="var(--paper, #f3ece2)"></circle>
+                          <ellipse cx="9.5" cy="10" rx="4.2" ry="1.5" transform="rotate(-14 9.5 10)"></ellipse>
+                          <ellipse cx="30.5" cy="10" rx="4.2" ry="1.5" transform="rotate(14 30.5 10)"></ellipse>
+                          <circle cx="3" cy="10" r="1"></circle>
+                          <circle cx="37" cy="10" r="1"></circle>
+                        </g>
+                      </g>
+                      <text x="150" y="140" class="art-script" font-size="44" data-v4-card-first>Trần Mến</text>
+                      <text x="150" y="178" class="art-script" font-size="30">&amp;</text>
+                      <text x="150" y="228" class="art-script" font-size="44" data-v4-card-second>Minh Hoàng</text>
+                      <g transform="translate(150 255)">
+                        <path d="M-25 0H-18M18 0H25" stroke="currentColor" stroke-width="0.6" opacity="0.45"></path>
+                        <g transform="translate(-14 -7) scale(0.7)" fill="currentColor">
+                          <ellipse cx="20" cy="5.6" rx="2.3" ry="4.4" transform="rotate(0 20 10)"></ellipse>
+                          <ellipse cx="20" cy="5.6" rx="2.3" ry="4.4" transform="rotate(90 20 10)"></ellipse>
+                          <ellipse cx="20" cy="5.6" rx="2.3" ry="4.4" transform="rotate(180 20 10)"></ellipse>
+                          <ellipse cx="20" cy="5.6" rx="2.3" ry="4.4" transform="rotate(270 20 10)"></ellipse>
+                          <circle cx="20" cy="10" r="1.6" fill="var(--paper, #f3ece2)"></circle>
+                          <ellipse cx="9.5" cy="10" rx="4.2" ry="1.5" transform="rotate(-14 9.5 10)"></ellipse>
+                          <ellipse cx="30.5" cy="10" rx="4.2" ry="1.5" transform="rotate(14 30.5 10)"></ellipse>
+                          <circle cx="3" cy="10" r="1"></circle>
+                          <circle cx="37" cy="10" r="1"></circle>
+                        </g>
+                      </g>
+                      <text x="150" y="290" class="art-numerals" font-size="21" letter-spacing="3" data-v4-card-date>27.11.2026</text>
+                      <g transform="translate(150 313)">
+                        <path d="M-25 0H-18M18 0H25" stroke="currentColor" stroke-width="0.6" opacity="0.45"></path>
+                        <g transform="translate(-14 -7) scale(0.7)" fill="currentColor">
+                          <ellipse cx="20" cy="5.6" rx="2.3" ry="4.4" transform="rotate(0 20 10)"></ellipse>
+                          <ellipse cx="20" cy="5.6" rx="2.3" ry="4.4" transform="rotate(90 20 10)"></ellipse>
+                          <ellipse cx="20" cy="5.6" rx="2.3" ry="4.4" transform="rotate(180 20 10)"></ellipse>
+                          <ellipse cx="20" cy="5.6" rx="2.3" ry="4.4" transform="rotate(270 20 10)"></ellipse>
+                          <circle cx="20" cy="10" r="1.6" fill="var(--paper, #f3ece2)"></circle>
+                          <ellipse cx="9.5" cy="10" rx="4.2" ry="1.5" transform="rotate(-14 9.5 10)"></ellipse>
+                          <ellipse cx="30.5" cy="10" rx="4.2" ry="1.5" transform="rotate(14 30.5 10)"></ellipse>
+                          <circle cx="3" cy="10" r="1"></circle>
+                          <circle cx="37" cy="10" r="1"></circle>
+                        </g>
+                      </g>
+                      <text x="150" y="342" class="art-caps" font-size="11" letter-spacing="2.2">WITH LOVE</text>
+                      <text x="150" y="360" class="art-caps" font-size="11" letter-spacing="2.2">FOREVER ALWAYS</text>
+                    </svg>
+                  </div>
+                  <div class="env-tag">
+                    <div class="env-paper" aria-hidden="true">
+                      <img alt="" loading="eager" decoding="async" src="./assets/decor/journey-paper.avif">
+                    </div>
+                    <svg class="env-art" viewBox="0 0 150 208" aria-hidden="true">
+                      <text x="75" y="42" class="art-star" font-size="16">✦</text>
+                      <text x="75" y="78" class="art-caps" font-size="12" letter-spacing="2.4">A</text>
+                      <text x="75" y="98" class="art-caps" font-size="12" letter-spacing="2.4">BEAUTIFUL</text>
+                      <text x="75" y="118" class="art-caps" font-size="12" letter-spacing="2.4">JOURNEY</text>
+                      <text x="75" y="138" class="art-caps" font-size="12" letter-spacing="2.4">BEGINS</text>
+                      <g transform="translate(63 150)" fill="none" stroke="currentColor" stroke-width="1" opacity="0.8">
+                        <path d="M12 47V8M12 14c-4-1-6-4-6-7 3 0 5 3 6 7Zm0 0c4-1 6-4 6-7-3 0-5 3-6 7Zm0 10c-4-1-7-4-7-7 3 0 6 3 7 7Zm0 0c4-1 7-4 7-7-3 0-6 3-7 7Zm0 10c-4-1-7-4-7-7 3 0 6 3 7 7Zm0 0c4-1 7-4 7-7-3 0-6 3-7 7Z"></path>
+                      </g>
+                    </svg>
+                  </div>
+                  <div class="env-front" aria-hidden="true">
+                    <img alt="" loading="eager" decoding="async" src="./assets/decor/envelope-folded-pocket.avif">
+                  </div>
+                  <span class="seal env-seal" aria-hidden="true">
+                    <img alt="" loading="lazy" decoding="async" src="./assets/decor/wax-seal.avif">
+                    <svg class="seal-monogram" viewBox="0 0 100 100">
+                      <text x="50" y="50" font-size="34" dominant-baseline="central" text-anchor="middle" data-v4-monogram>MH</text>
+                    </svg>
+                  </span>
+                  <div class="env-florals-front" aria-hidden="true">
+                    <img alt="" loading="eager" decoding="async" src="./assets/decor/envelope-florals-front.avif">
+                  </div>
+                  <div class="env-florals-front env-florals-drape" aria-hidden="true">
+                    <img alt="" loading="eager" decoding="async" src="./assets/decor/envelope-florals-front.avif">
+                  </div>
+                </div>
+              </div>
+            </section>
+
+            <!-- Section 3: Two Families Grid -->
+            <section class="chapter families" data-section="families">
+              <div data-shown="false" class="chapter-content">
+                <h2 class="chapter-title">Thông tin lễ cưới</h2>
+                <p class="family-prelude">Hai mái nhà, một gia đình</p>
+                <div class="family-grid" data-count="2">
+                  <div data-shown="false" class="family-side" data-family="bride">
+                    <h3>Nhà gái</h3>
+                    <p class="family-parent">Ông:&nbsp;Trần&nbsp;Văn&nbsp;Hải</p>
+                    <p class="family-parent">Bà:&nbsp;Bùi&nbsp;Thị&nbsp;Lên</p>
+                    <p class="family-address">02 ngách 12 ngõ 563 Thọ Sơn, Đại Nghĩa, Mỹ Đức, Hà Nội</p>
+                  </div>
+                  <div data-shown="false" class="family-side" data-family="groom" style="transition-delay: 120ms;">
+                    <h3>Nhà trai</h3>
+                    <p class="family-parent">Ông:&nbsp;Bùi&nbsp;Ngọc&nbsp;Ánh</p>
+                    <p class="family-parent">Bà:&nbsp;Đào&nbsp;Thị&nbsp;Sen</p>
+                    <p class="family-address">Khu 5 , Tứ Trưng, Vĩnh Tường, Vĩnh Phúc</p>
+                  </div>
+                </div>
+                <p class="welcome-line">Chúng tôi rất hân hạnh được đón tiếp bạn trong ngày vui của gia đình.</p>
+                <p class="love-quote">Love makes&#10;everything beautiful.</p>
+              </div>
+            </section>
+
+            <!-- Section 4: Optional Love Story & Stationery Flatlay -->
+            <section class="chapter story" data-section="story" hidden>
+              <div data-shown="false" class="chapter-content">
+                <div class="story-berries-left" aria-hidden="true" data-depth="18">
+                  <img alt="" loading="lazy" decoding="async" src="./assets/decor/berry-sprig.avif">
+                </div>
+                <div class="story-petal-top" aria-hidden="true">
+                  <img alt="" loading="lazy" decoding="async" src="./assets/decor/petal.avif">
+                </div>
+                <p class="eyebrow">Câu chuyện của chúng tôi</p>
+                <h2 class="story-headline">Và những ngày sau,&#10;vẫn cùng nhau.</h2>
+                <p class="story-message">Từ những lần gặp gỡ tình cờ, đến một hành trình đầy yêu thương. Cảm ơn vì đã luôn ở đây, cùng nhau viết tiếp những chương mới.</p>
+                <div class="stationery-scene">
+                  <div class="photo stationery-portrait" data-v4-empty="0">
+                    <img alt="Trần Mến &amp; Minh Hoàng" loading="lazy" decoding="async" src="./assets/photos/anh-cuoi-can-canh.avif">
+                  </div>
+                  <div class="photo stationery-snapshot" data-v4-empty="0">
+                    <img alt="Trần Mến &amp; Minh Hoàng" loading="lazy" decoding="async" src="./assets/photos/anh-cuoi-tung-hoa.avif">
+                  </div>
+                  <div class="stationery-objects" aria-hidden="true">
+                    <img alt="" loading="lazy" decoding="async" src="./assets/decor/stationery-flatlay-finished.avif">
+                  </div>
+                  <div class="stationery-calendar">
+                    <p class="stationery-month" aria-hidden="true">Tháng 11 2026</p>
+                    <table data-v4-mini-calendar>
+                      <caption>tháng 11 năm 2026</caption>
+                      <thead>
+                        <tr>
+                          <th scope="col">CN</th>
+                          <th scope="col">T2</th>
+                          <th scope="col">T3</th>
+                          <th scope="col">T4</th>
+                          <th scope="col">T5</th>
+                          <th scope="col">T6</th>
+                          <th scope="col">T7</th>
+                        </tr>
+                      </thead>
+                      <tbody></tbody>
+                    </table>
+                  </div>
+                  <span class="stationery-monogram" aria-hidden="true" data-v4-monogram>MH</span>
+                  <a class="stationery-details" href="#v4-announce">
+                    <span data-v4-story-link>Chi tiết</span>
+                    <small>Khám phá</small>
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                      <path d="M5 12h14"></path>
+                      <path d="m12 5 7 7-7 7"></path>
+                    </svg>
+                  </a>
+                  <p class="stationery-caption">Chúng mình</p>
+                </div>
+              </div>
+            </section>
+
+            <!-- Section 5: Party Announce, Venue Map & Ceremonies -->
+            <section id="v4-announce" class="chapter announce" data-section="announce">
+              <div data-shown="false" class="chapter-content">
+                <p class="eyebrow">Kính mời tham dự tiệc chung vui của gia đình chúng tôi</p>
+                <p class="announce-names"><span data-v4-name>Trần&nbsp;Mến</span> <i>&amp;</i> <span data-v4-name>Minh&nbsp;Hoàng</span></p>
+                <div class="date-strip">
+                  <span class="date-day">27</span>
+                  <span class="date-month">tháng 11 năm 2026</span>
+                </div>
+                <p class="date-time">Vào lúc 16:00, Thứ Sáu</p>
+                <p class="lunar" data-v4-lunar>( Tức ngày 19 tháng 10 năm Bính Ngọ )</p>
+                <p class="lunar" data-v4-reception>Đón khách: 16:00</p>
+                <div class="venue">
+                  <p class="venue-label" hidden></p>
+                  <p class="venue-name">02 ngách 12 ngõ 563 Thọ Sơn, Đại Nghĩa, Mỹ Đức, Hà Nội</p>
+                  <p class="venue-address" hidden></p>
+                  <a
+                    class="outline-button"
+                    href="https://www.google.com/maps/search/?api=1&amp;query=02%20ng%C3%A1ch%2012%20ng%C3%B5%20563%20Th%E1%BB%8D%20S%C6%A1n%2C%20%C4%90%E1%BA%A1i%20Ngh%C4%A9a%2C%20M%E1%BB%B9%20%C4%90%E1%BB%A9c%2C%20H%C3%A0%20N%E1%BB%99i"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                    data-v4-map-link
+                  >
+                    <span>Chỉ đường</span>
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                      <path d="M5 12h14"></path>
+                      <path d="m12 5 7 7-7 7"></path>
+                    </svg>
+                  </a>
+                </div>
+                <div class="ceremonies" data-section="ceremonies">
+                  <h2 class="chapter-title">Các nghi lễ</h2>
+                  <ol class="ceremony-list" data-v4-ceremonies>
+                    <li class="ceremony">
+                      <h3>Lễ thành hôn (nhà trai)</h3>
+                      <p class="ceremony-when">11:05 · Thứ Bảy, 28 tháng 11, 2026</p>
+                      <p>Khu 5 , Tứ Trưng, Vĩnh Tường, Vĩnh Phúc</p>
+                      <p class="ceremony-note">Ngày chung đôi của chúng mình ❤️</p>
+                    </li>
+                    <li class="ceremony">
+                      <h3>Lễ vu quy (nhà gái)</h3>
+                      <p class="ceremony-when">08:00 · Thứ Bảy, 28 tháng 11, 2026</p>
+                      <p>02 ngách 12 ngõ 563 Thọ Sơn, Đại Nghĩa, Mỹ Đức, HN</p>
+                      <p class="ceremony-note">Ngày chung đôi của chúng mình ❤️</p>
+                    </li>
+                  </ol>
+                </div>
+              </div>
+            </section>
+
+            <!-- Sections 6 & 7: Velvet Band (Countdown, Heart Calendar, Save-the-Date & Schedule) -->
+            <div class="velvet">
+              <span class="velvet-paper" aria-hidden="true"></span>
+              <div class="velvet-ribbon" aria-hidden="true">
+                <img alt="" loading="lazy" decoding="async" src="./assets/decor/satin-divider.avif">
+              </div>
+
+              <!-- Section 6: Countdown & Heart Calendar -->
+              <section class="chapter countdown" data-section="countdown">
+                <div data-shown="false" class="chapter-content">
+                  <p class="eyebrow">Đếm ngược tới ngày cưới</p>
+                  <dl data-v4-countdown="2026-11-28T08:00:00+07:00">
+                    <div>
+                      <dd class="tabular-nums">00</dd>
+                      <dt>Ngày</dt>
+                    </div>
+                    <div>
+                      <dd class="tabular-nums">00</dd>
+                      <dt>Giờ</dt>
+                    </div>
+                    <div>
+                      <dd class="tabular-nums">00</dd>
+                      <dt>Phút</dt>
+                    </div>
+                    <div>
+                      <dd class="tabular-nums">00</dd>
+                      <dt>Giây</dt>
+                    </div>
+                  </dl>
+
+                  <div data-v4-calendar-mount>
+                    <table class="calendar-table">
+                      <caption>tháng 11 năm 2026</caption>
+                      <thead>
+                        <tr>
+                          <th scope="col">CN</th>
+                          <th scope="col">T2</th>
+                          <th scope="col">T3</th>
+                          <th scope="col">T4</th>
+                          <th scope="col">T5</th>
+                          <th scope="col">T6</th>
+                          <th scope="col">T7</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td><span>1</span></td><td><span>2</span></td><td><span>3</span></td><td><span>4</span></td><td><span>5</span></td><td><span>6</span></td><td><span>7</span></td>
+                        </tr>
+                        <tr>
+                          <td><span>8</span></td><td><span>9</span></td><td><span>10</span></td><td><span>11</span></td><td><span>12</span></td><td><span>13</span></td><td><span>14</span></td>
+                        </tr>
+                        <tr>
+                          <td><span>15</span></td><td><span>16</span></td><td><span>17</span></td><td><span>18</span></td><td><span>19</span></td><td><span>20</span></td><td><span>21</span></td>
+                        </tr>
+                        <tr>
+                          <td><span>22</span></td><td><span>23</span></td><td><span>24</span></td><td><span>25</span></td><td><span>26</span></td><td><span>27</span></td>
+                          <td>
+                            <span>
+                              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" data-calendar-heart="true">
+                                <path d="M2 9.5a5.5 5.5 0 0 1 9.591-3.676.56.56 0 0 0 .818 0A5.49 5.49 0 0 1 22 9.5c0 2.29-1.5 4-3 5.5l-5.492 5.313a2 2 0 0 1-3 .019L5 15c-1.5-1.5-3-3.2-3-5.5"></path>
+                              </svg>
+                              <span data-calendar-wedding-day="true" class="tabular-nums">28</span>
+                              <span class="sr-only">Ngày cưới</span>
+                            </span>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td><span>29</span></td><td><span>30</span></td>
+                          <td><span class="sr-only">&nbsp;</span></td><td><span class="sr-only">&nbsp;</span></td><td><span class="sr-only">&nbsp;</span></td><td><span class="sr-only">&nbsp;</span></td><td><span class="sr-only">&nbsp;</span></td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+
+                  <details class="calendar-actions">
+                    <summary>Lưu ngày cưới<span aria-hidden="true">+</span></summary>
+                    <div class="calendar-links">
+                      <a
+                        data-v4-gcal
+                        target="_blank"
+                        rel="noreferrer noopener"
+                        href="https://calendar.google.com/calendar/render?action=TEMPLATE&amp;text=%C4%90%C3%A1m%20c%C6%B0%E1%BB%9Bi%20Tr%E1%BA%A7n%20M%E1%BA%BFn%20%26%20Minh%20Ho%C3%A0ng&amp;dates=20261128T010000Z%2F20261128T040000Z"
+                      >
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                          <path d="M16 19h6"></path><path d="M16 2v4"></path><path d="M19 16v6"></path><path d="M21 12.598V6a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h8.5"></path><path d="M3 10h18"></path><path d="M8 2v4"></path>
+                        </svg>
+                        Google Calendar
+                      </a>
+                      <a data-v4-ics download="Đám cưới Trần Mến &amp; Minh Hoàng.ics" href="#">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                          <path d="M16 19h6"></path><path d="M16 2v4"></path><path d="M19 16v6"></path><path d="M21 12.598V6a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h8.5"></path><path d="M3 10h18"></path><path d="M8 2v4"></path>
+                        </svg>
+                        Apple Calendar
+                      </a>
+                    </div>
+                  </details>
+                </div>
+              </section>
+
+              <!-- Section 7: Optional Schedule Timeline -->
+              <section class="chapter schedule-chapter" data-section="schedule" hidden>
+                <div data-shown="false" class="chapter-content">
+                  <div class="schedule-petal" aria-hidden="true">
+                    <img alt="" loading="lazy" decoding="async" src="./assets/decor/petal.avif">
+                  </div>
+                  <span class="fleuron fleuron-lines velvet-fleuron" aria-hidden="true">
+                    <svg viewBox="0 0 40 20" fill="currentColor">
+                      <ellipse cx="20" cy="5.6" rx="2.3" ry="4.4" transform="rotate(0 20 10)"></ellipse>
+                      <ellipse cx="20" cy="5.6" rx="2.3" ry="4.4" transform="rotate(90 20 10)"></ellipse>
+                      <ellipse cx="20" cy="5.6" rx="2.3" ry="4.4" transform="rotate(180 20 10)"></ellipse>
+                      <ellipse cx="20" cy="5.6" rx="2.3" ry="4.4" transform="rotate(270 20 10)"></ellipse>
+                      <circle cx="20" cy="10" r="1.6" fill="var(--velvet, #4f0f18)"></circle>
+                      <ellipse cx="9.5" cy="10" rx="4.2" ry="1.5" transform="rotate(-14 9.5 10)"></ellipse>
+                      <ellipse cx="30.5" cy="10" rx="4.2" ry="1.5" transform="rotate(14 30.5 10)"></ellipse>
+                      <circle cx="3" cy="10" r="1"></circle>
+                      <circle cx="37" cy="10" r="1"></circle>
+                    </svg>
+                  </span>
+                  <p class="eyebrow" data-v4-schedule-title>Lịch trình buổi lễ</p>
+                  <ol class="schedule-list" data-v4-schedule-list></ol>
+                </div>
+              </section>
+
+              <div class="velvet-florals-left" aria-hidden="true" data-depth="-8">
+                <img alt="" loading="lazy" decoding="async" src="./assets/decor/velvet-calla-accent.avif">
+              </div>
+              <div class="velvet-petal-right" aria-hidden="true" data-depth="10">
+                <img alt="" loading="lazy" decoding="async" src="./assets/decor/petal.avif">
+              </div>
+              <div class="velvet-petal-lower" aria-hidden="true">
+                <img alt="" loading="lazy" decoding="async" src="./assets/decor/petal.avif">
+              </div>
+            </div>
+
+            <!-- Section 8: 3D Coverflow Album -->
+            <section class="chapter album" data-section="album">
+              <div data-shown="false" class="chapter-content">
+                <header class="album-heading">
+                  <h2 class="chapter-title">Album ảnh cưới</h2>
+                  <p class="album-caption">Những khoảnh khắc chúng mình muốn giữ mãi.</p>
+                </header>
+                <div class="album-mount">
+                  <div class="album-swiper album-coverflow" data-album-layout="coverflow" data-v4-album>
+                    <ul class="album-rail" aria-label="Album ảnh cưới" tabindex="0">
+                      <li class="album-slide" data-selected="true"><button type="button" class="album-photo-btn" aria-label="Xem ảnh 1" data-v4-photo="0"><div class="photo album-photo"><img alt="Ảnh cưới 1" loading="eager" decoding="async" src="./assets/photos/gallery-01.png"></div></button></li>
+                      <li class="album-slide" data-selected="false"><button type="button" class="album-photo-btn" aria-label="Xem ảnh 2" data-v4-photo="1"><div class="photo album-photo"><img alt="Ảnh cưới 2" loading="eager" decoding="async" src="./assets/photos/gallery-02.png"></div></button></li>
+                      <li class="album-slide" data-selected="false"><button type="button" class="album-photo-btn" aria-label="Xem ảnh 3" data-v4-photo="2"><div class="photo album-photo"><img alt="Ảnh cưới 3" loading="lazy" decoding="async" src="./assets/photos/gallery-03.png"></div></button></li>
+                      <li class="album-slide" data-selected="false"><button type="button" class="album-photo-btn" aria-label="Xem ảnh 4" data-v4-photo="3"><div class="photo album-photo"><img alt="Ảnh cưới 4" loading="lazy" decoding="async" src="./assets/photos/gallery-04.png"></div></button></li>
+                      <li class="album-slide" data-selected="false"><button type="button" class="album-photo-btn" aria-label="Xem ảnh 5" data-v4-photo="4"><div class="photo album-photo"><img alt="Ảnh cưới 5" loading="lazy" decoding="async" src="./assets/photos/gallery-05.png"></div></button></li>
+                      <li class="album-slide" data-selected="false"><button type="button" class="album-photo-btn" aria-label="Xem ảnh 6" data-v4-photo="5"><div class="photo album-photo"><img alt="Ảnh cưới 6" loading="lazy" decoding="async" src="./assets/photos/gallery-06.png"></div></button></li>
+                      <li class="album-slide" data-selected="false"><button type="button" class="album-photo-btn" aria-label="Xem ảnh 7" data-v4-photo="6"><div class="photo album-photo"><img alt="Ảnh cưới 7" loading="lazy" decoding="async" src="./assets/photos/gallery-07.png"></div></button></li>
+                      <li class="album-slide" data-selected="false"><button type="button" class="album-photo-btn" aria-label="Xem ảnh 8" data-v4-photo="7"><div class="photo album-photo"><img alt="Ảnh cưới 8" loading="lazy" decoding="async" src="./assets/photos/gallery-08.png"></div></button></li>
+                      <li class="album-slide" data-selected="false"><button type="button" class="album-photo-btn" aria-label="Xem ảnh 9" data-v4-photo="8"><div class="photo album-photo"><img alt="Ảnh cưới 9" loading="lazy" decoding="async" src="./assets/photos/gallery-09.png"></div></button></li>
+                      <li class="album-slide" data-selected="false"><button type="button" class="album-photo-btn" aria-label="Xem ảnh 10" data-v4-photo="9"><div class="photo album-photo"><img alt="Ảnh cưới 10" loading="lazy" decoding="async" src="./assets/photos/gallery-10.png"></div></button></li>
+                      <li class="album-slide" data-selected="false"><button type="button" class="album-photo-btn" aria-label="Xem ảnh 11" data-v4-photo="10"><div class="photo album-photo"><img alt="Ảnh cưới 11" loading="lazy" decoding="async" src="./assets/photos/gallery-11.png"></div></button></li>
+                      <li class="album-slide" data-selected="false"><button type="button" class="album-photo-btn" aria-label="Xem ảnh 12" data-v4-photo="11"><div class="photo album-photo"><img alt="Ảnh cưới 12" loading="lazy" decoding="async" src="./assets/photos/gallery-12.png"></div></button></li>
+                      <li class="album-slide" data-selected="false"><button type="button" class="album-photo-btn" aria-label="Xem ảnh 13" data-v4-photo="12"><div class="photo album-photo"><img alt="Ảnh cưới 13" loading="lazy" decoding="async" src="./assets/photos/gallery-13.png"></div></button></li>
+                      <li class="album-slide" data-selected="false"><button type="button" class="album-photo-btn" aria-label="Xem ảnh 14" data-v4-photo="13"><div class="photo album-photo"><img alt="Ảnh cưới 14" loading="lazy" decoding="async" src="./assets/photos/gallery-14.png"></div></button></li>
+                      <li class="album-slide" data-selected="false"><button type="button" class="album-photo-btn" aria-label="Xem ảnh 15" data-v4-photo="14"><div class="photo album-photo"><img alt="Ảnh cưới 15" loading="lazy" decoding="async" src="./assets/photos/gallery-15.png"></div></button></li>
+                      <li class="album-slide" data-selected="false"><button type="button" class="album-photo-btn" aria-label="Xem ảnh 16" data-v4-photo="15"><div class="photo album-photo"><img alt="Ảnh cưới 16" loading="lazy" decoding="async" src="./assets/photos/gallery-16.png"></div></button></li>
+                    </ul>
+                    <button type="button" class="album-nav album-prev" aria-label="Ảnh trước" data-v4-nav="-1" disabled>
+                      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                        <path d="m15 18-6-6 6-6"></path>
+                      </svg>
+                    </button>
+                    <button type="button" class="album-nav album-next" aria-label="Ảnh sau" data-v4-nav="1">
+                      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                        <path d="m9 18 6-6-6-6"></path>
+                      </svg>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </section>
+
+            <!-- Section 9: Guestbook / Wishes -->
+            <section class="chapter form-chapter wishes-chapter" data-section="guestbook">
+              <div data-shown="false" class="chapter-content">
+                <h2 class="chapter-title">Sổ lưu bút</h2>
+                <p class="intro">Để lại một lời chúc cho cô dâu chú rể nhé.</p>
+                <form id="v4-guestbook-form" novalidate>
+                  <input type="text" name="website" class="v4-honeypot" tabindex="-1" autocomplete="off" aria-hidden="true">
+                  <input name="name" maxlength="60" required aria-label="Tên của bạn" placeholder="Nhập tên của bạn*">
+                  <div class="wishes-textarea-wrap">
+                    <textarea name="message" maxlength="500" rows="5" required aria-label="Lời chúc" placeholder="Nhập lời chúc của bạn*"></textarea>
+                  </div>
+                  <div class="wishes-actions">
+                    <button type="button" data-v4-suggest aria-label="Gợi ý một lời chúc" title="Gợi ý một lời chúc">
+                      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                        <path d="m21.64 3.64-1.28-1.28a1.21 1.21 0 0 0-1.72 0L2.36 18.64a1.21 1.21 0 0 0 0 1.72l1.28 1.28a1.21 1.21 0 0 0 1.72 0L21.64 5.36a1.21 1.21 0 0 0 0-1.72"></path>
+                        <path d="m14 7 3 3"></path>
+                        <path d="M5 6v4"></path>
+                        <path d="M19 14v4"></path>
+                        <path d="M10 2v2"></path>
+                        <path d="M7 8H3"></path>
+                        <path d="M21 16h-4"></path>
+                        <path d="M11 3H9"></path>
+                      </svg>
+                    </button>
+                    <button type="submit">Gửi lời chúc</button>
+                  </div>
+                  <p data-v4-status class="v4-status" role="status" hidden></p>
+                  <p data-v4-demo-notice class="v4-status" hidden></p>
+                </form>
+                <ul id="v4-guestbook-list" aria-label="Danh sách lời chúc"></ul>
+              </div>
+            </section>
+
+            <!-- Section 10: RSVP Attendance Form -->
+            <section class="chapter form-chapter rsvp-chapter" data-section="rsvp">
+              <div data-shown="false" class="chapter-content">
+                <span class="seal reply-seal" aria-hidden="true">
+                  <img alt="" loading="lazy" decoding="async" src="./assets/decor/wax-seal.avif">
+                  <svg class="seal-monogram" viewBox="0 0 100 100">
+                    <text x="50" y="50" font-size="34" dominant-baseline="central" text-anchor="middle" data-v4-monogram>MH</text>
+                  </svg>
+                </span>
+                <h2 class="chapter-title">Xác nhận tham dự</h2>
+                <p class="intro">Cô dâu chú rể rất mong được đón bạn. Hãy cho chúng mình biết bạn có đến được không nhé.</p>
+                <form id="v4-rsvp-form" novalidate>
+                  <input type="text" name="website" class="v4-honeypot" tabindex="-1" autocomplete="off" aria-hidden="true">
+                  <input name="name" maxlength="120" required aria-label="Tên của bạn" placeholder="Nhập tên của bạn*" value="">
+                  <div role="radiogroup" aria-label="Bạn có tham dự không?" data-v4-attend>
+                    <button type="button" role="radio" aria-checked="false" data-value="yes">Mình sẽ đến</button>
+                    <button type="button" role="radio" aria-checked="false" data-value="no">Rất tiếc, mình không đến được</button>
+                  </div>
+                  <div data-v4-custom-questions></div>
+                  <button type="submit">Gửi xác nhận</button>
+                  <p data-v4-status class="v4-status" role="status" hidden></p>
+                  <p data-v4-demo-notice class="v4-status" hidden></p>
+                </form>
+              </div>
+            </section>
+
+            <!-- Sections 11 & 12: GuestVelvet (Gift Envelopes & Optional Dresscode) -->
+            <div class="guest-velvet" data-section="guest-velvet">
+              <!-- Section 11: Gift Envelopes -->
+              <section class="chapter gifts" data-section="gifts">
+                <div data-shown="false" class="chapter-content">
+                  <h2 class="chapter-title">Hộp mừng cưới</h2>
+                  <span class="fleuron fleuron-lines" aria-hidden="true">
+                    <svg viewBox="0 0 40 20" fill="currentColor">
+                      <ellipse cx="20" cy="5.6" rx="2.3" ry="4.4" transform="rotate(0 20 10)"></ellipse>
+                      <ellipse cx="20" cy="5.6" rx="2.3" ry="4.4" transform="rotate(90 20 10)"></ellipse>
+                      <ellipse cx="20" cy="5.6" rx="2.3" ry="4.4" transform="rotate(180 20 10)"></ellipse>
+                      <ellipse cx="20" cy="5.6" rx="2.3" ry="4.4" transform="rotate(270 20 10)"></ellipse>
+                      <circle cx="20" cy="10" r="1.6" fill="var(--velvet, #4f0f18)"></circle>
+                      <ellipse cx="9.5" cy="10" rx="4.2" ry="1.5" transform="rotate(-14 9.5 10)"></ellipse>
+                      <ellipse cx="30.5" cy="10" rx="4.2" ry="1.5" transform="rotate(14 30.5 10)"></ellipse>
+                      <circle cx="3" cy="10" r="1"></circle>
+                      <circle cx="37" cy="10" r="1"></circle>
+                    </svg>
+                  </span>
+                  <p class="intro">Nếu không tới dự được, bạn có thể gửi lời chúc qua đây.</p>
+                  <div class="gift-theme gift-accounts" data-v4-gift-accounts></div>
+                </div>
+              </section>
+
+              <!-- Section 12: Optional Dresscode -->
+              <section class="chapter dress-code" data-section="dressCode" hidden>
+                <div data-shown="false" class="chapter-content">
+                  <div data-dress-code-root="true">
+                    <h2 data-dress-code-title="true">Dresscode</h2>
+                    <p data-dress-code-description="true">Sắc đỏ rượu vang, ngà và kem</p>
+                    <ul data-dress-code-swatches="true" class="dress-swatches" aria-label="Dresscode"></ul>
+                  </div>
+                </div>
+              </section>
+            </div>
+
+            <!-- Section 13: Keepsake Frame -->
+            <section class="keepsake" data-section="keepsake">
+              <div class="keepsake-backdrop" aria-hidden="true">
+                <img alt="" loading="lazy" decoding="async" src="./assets/decor/keepsake-petals-backdrop.avif">
+              </div>
+              <div data-shown="false" class="keepsake-display">
+                <figure class="keepsake-frame">
+                  <div class="keepsake-mat">
+                    <div class="photo keepsake-photo" data-v4-empty="0">
+                      <img alt="Trần Mến &amp; Minh Hoàng" loading="lazy" decoding="async" src="./assets/photos/keepsake.png" data-v4-keepsake-photo>
+                    </div>
+                    <div class="keepsake-frame-decor" aria-hidden="true">
+                      <img alt="" loading="lazy" decoding="async" src="./assets/decor/keepsake-frame.avif">
+                    </div>
+                  </div>
+                  <figcaption class="keepsake-caption">
+                    <p class="keepsake-text">A lifetime&#10;of love, in every detail.</p>
+                  </figcaption>
+                </figure>
+              </div>
+            </section>
+
+            <!-- Section 14: Closing -->
+            <section class="closing" data-section="closing">
+              <div class="closing-petal" aria-hidden="true">
+                <img alt="" loading="lazy" decoding="async" src="./assets/decor/petal.avif">
+              </div>
+              <div class="closing-florals-right" aria-hidden="true">
+                <img alt="" loading="lazy" decoding="async" src="./assets/decor/velvet-florals-right.avif">
+              </div>
+              <div data-shown="false" class="closing-copy">
+                <span class="fleuron solo-fleuron" aria-hidden="true">
+                  <svg viewBox="0 0 40 20" fill="currentColor">
+                    <ellipse cx="20" cy="5.6" rx="2.3" ry="4.4" transform="rotate(0 20 10)"></ellipse>
+                    <ellipse cx="20" cy="5.6" rx="2.3" ry="4.4" transform="rotate(90 20 10)"></ellipse>
+                    <ellipse cx="20" cy="5.6" rx="2.3" ry="4.4" transform="rotate(180 20 10)"></ellipse>
+                    <ellipse cx="20" cy="5.6" rx="2.3" ry="4.4" transform="rotate(270 20 10)"></ellipse>
+                    <circle cx="20" cy="10" r="1.6" fill="var(--paper, #f3ece2)"></circle>
+                    <ellipse cx="9.5" cy="10" rx="4.2" ry="1.5" transform="rotate(-14 9.5 10)"></ellipse>
+                    <ellipse cx="30.5" cy="10" rx="4.2" ry="1.5" transform="rotate(14 30.5 10)"></ellipse>
+                    <circle cx="3" cy="10" r="1"></circle>
+                    <circle cx="37" cy="10" r="1"></circle>
+                  </svg>
+                </span>
+                <h2 class="thank-script">Thank you</h2>
+                <p class="closing-message">Cảm ơn bạn đã đến và cùng chúng mình viết nên một phần thật đẹp trong ngày đặc biệt này.</p>
+                <p class="closing-names"><span data-v4-name>Trần&nbsp;Mến</span> <i>&amp;</i> <span data-v4-name>Minh&nbsp;Hoàng</span></p>
+                <p class="closing-date">27.11.2026</p>
+              </div>
+            </section>
+          </div>
+
+          <!-- Floating 5-Bar Music Equalizer -->
+          <div class="music-player" data-playing="false" data-placement="viewport">
+            <audio src="./assets/audio/ido911.mp3" loop preload="none" playsinline></audio>
+            <button type="button" aria-label="Bật nhạc nền" aria-pressed="false" title="Bật nhạc nền" class="music-button">
+              <span class="music-equalizer" aria-hidden="true">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+              </span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <div id="v4-dialog-root"></div>
+
+  <div id="v4-expired" class="v4-expired" role="dialog" aria-modal="true" aria-label="Thông báo">
+    <div class="v4-dialog surface-glass-strong gift-theme gift-dialog">
+      <p>Thiệp cưới đã hết hạn hiển thị.</p>
+    </div>
+  </div>
+</body>
+</html>
